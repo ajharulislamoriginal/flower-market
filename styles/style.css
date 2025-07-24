@@ -11,3 +11,89 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.display-flex {
+    display: flex;
+}
+
+.nav-logo img {
+    width: 70%;
+}
+
+.nav-items {
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 70px;
+}
+
+
+
+.nav-menu ul {
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.nav-menu ul li {
+    list-style: none;
+
+}
+
+.dark-color  {
+    color:#8987A1 !important;
+}
+
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight:500;
+}
+
+
+
+
+ 
+.nav-menu {
+    align-items: center;
+}
+
+.buy-icon {
+    margin-left: 3rem;
+}
+
+.buy-icon p {
+    margin: 0px 5px
+
+}
+
+
+.buy-icon i {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width:576px) {
+    
+.nav-menu ul {
+    display: none;
+}
+
+.buy-icon {
+    margin-top: 1.2rem;
+}
+
+.buy-icon i {
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+} 
+
+
+.nav-items  {
+    margin: 20px 30px;
+}
+
+    
+}
