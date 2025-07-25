@@ -458,105 +458,7 @@ margin-bottom: 17px;
 
 
 
-/* anikst */
 
-
-.exta-section {
-    display: none;
-}
-
-
-.exta-items {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    padding: 30px;
-}
-
- 
-
-
-
-.item-3 {
-    position: relative;
-    background-image: url("../assets/deal-bloom.png");
-     width: 100%;
-    height:170px;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-    border-radius: 1rem;
-    text-align: center;
-    
-}
-
-.item-3  .item-title h2 {
-    margin: 50px 0px 15px 0px;
-    color: white;
-}
-
-.item-3 .item-title a {
-    color: white;
-    padding: 20px;
-}
-
-
-
-.item-2  .item-title h2 {
-    margin: 50px 0px 15px 0px;
-    color: white;
-}
-
-.item-2 .item-title a {
-    color: white;
-    padding: 20px;
-}
-
-
-
-
-
-.item-1  .item-title h2 {
-    margin: 50px 0px 15px 0px;
-    color: white;
-}
-
-.item-1 .item-title a {
-    color: white;
-    padding: 20px;
-}
-
-
-
-.item-2 {
-    background-image: url("../assets/deal-zabo.png");
-     width: 100%;
-    height:170px;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-    border-radius: 1rem;
-    text-align: center;
-}
-
-
-.exta-items .item-1 {
-    background-image: url("../assets/deal-ana.png");
-    width: 100%;
-    height:170px;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-    border-radius: 1rem;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-/* anikend */
 
 
 
@@ -846,7 +748,6 @@ margin-bottom: 27px;
 
 
  
-
  
 
 .container-first {
@@ -858,15 +759,15 @@ margin-bottom: 27px;
 
 
 .grid-propatys {
-    display: none;
+    display: grid;
 
 
 
 ;
     grid-template-areas:
-        "img-1 img-1"
-        "img-2 img-2"
-        "img-3 img-3";
+        "img-1 "
+        "img-2"
+        "img-3";
          padding: 0px;
          margin: 0px;
 }
@@ -887,14 +788,31 @@ margin-bottom: 27px;
     grid-area: img-2;
     height: 12.5rem;
     border-radius: 1rem;
-    width: 87.8%;
+    width: 90%;
     margin-left: 15px;
 }
 
 .img-5 {
     height: 12.5rem;
-    width:87.8%;
+    width:90%;
     margin-left: 15px;
+}
+
+
+
+.img-5 .img-title-2 h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+
+.img-5 #a-link {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 122px;
 }
 
 
@@ -908,12 +826,10 @@ width: 20.8rem;
 }
 
 
+ 
 
 
-.exta-section {
-    display:grid;
-}
-
+ 
 
 
 
