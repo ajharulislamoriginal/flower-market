@@ -12,6 +12,15 @@
     "wdth" 100;
 }
 
+
+.primary-color {
+    color: #E95A08;
+}
+
+.bg-primary-color {
+    background-color: #E95A08;
+}
+
 .display-flex {
     display: flex;
 }
@@ -74,6 +83,423 @@
 }
 
 
+/* THERE END NAVBAR STYLE */
+
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+    margin-top: 90px;
+}
+
+.banner-img {
+    max-width:100%;
+}
+
+
+.banner-titles {
+    max-width: 100%;
+    margin-left:15px;
+}
+
+
+.banner-titles h2 {
+    font-size: 45px;
+   
+}
+
+.banner-titles p {
+    font-size: 1.2rem;
+}
+
+
+/* banner style end  */
+ 
+
+
+.our-plans {
+    margin: 0px 50px;
+}
+
+.our-plan {
+    max-height:90px;
+    margin: 10px 50px ;
+    padding: 20px 250px;
+}
+
+
+.our-plan h2 {
+    text-align: center;
+}
+
+.our-plan p {
+    text-align: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+   
+}
+
+.card-container h6 {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 7px 0px ;
+}
+
+.card {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.card button {
+    width: 100%;
+    height: 2rem;
+    color: white;
+    border: none;
+
+}
+
+
+/* section our plan end  */
+
+
+
+.love-plans {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.love-plans .love-plan-img {
+    width:100%;
+    padding: 60px;
+
+}
+
+.love-plan-img {
+    background-image: url("../assets/flower-store.png");
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.love-plan-img img {
+width: 40%;
+position: relative;
+left: 330px;
+margin-top: -150px;
+
+}
+
+
+
+.love-plan-titles {
+    width: 100%;
+    padding:50px;
+    font-size:20px ;
+     margin-top: 80px;
+}
+
+.love-plan-titles ul li {
+    margin-top: 60px;
+    
+}
+
+
+/* love section end  */
+
+
+
+
+
+/* ajharul islam start  */
+
+
+
+.container-first {
+     padding: 43px;
+   
+}
+
+
+#first-con {
+     padding: 42px 320px;
+    text-align: center;
+}
+
+
+#first-con h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+.img-1 {
+    /* background-color: blue; */
+    grid-area: img-1;
+    height: 200px;
+    background-image: url("../assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 15px 15px 15px;
+    border-radius: 1rem;
+    z-index: 1;
+}
+.img-2 {
+    /* background-color: rgb(0, 255, 98); */
+    grid-area: img-2;
+    height:429px;
+    background-image: url("../assets/deal-zabo.png");
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+.img-3 {
+    /* background-color: rgb(255, 60, 0); */
+    grid-area: img-3;
+    height: 200px;
+    background-image: url("../assets/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin: 15px;
+     border-radius: 1rem;
+     z-index: 1
+   
+}
+
+
+
+.img-4 {
+    grid-area: img-1;
+    background-color:rgba(0, 0, 0, 0.434);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 15px 15px 15px;
+    border-radius: 1rem;
+    z-index: 2;
+    color: white;
+}
+
+
+.img-title {
+    text-align: center;
+     margin-top: 80px;
+}
+
+.img-4 a {
+    color: white;
+}
+
+
+.grid-propatys {
+    display: grid;
+    grid-template-areas: "img-1 img-1 img-2 img-2 img-2"
+                         "img-3 img-3 img-2 img-2 img-2"
+}
+
+
+
+.img-6 {
+
+    grid-area: img-3;
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.454);
+     margin: 15px;
+     border-radius: 1rem;
+     color: white;
+     z-index:2;
+
+}
+
+.img-6 a {
+    color: rgb(248, 242, 242);
+    z-index: 2;
+}
+
+
+.img-5 {
+
+    grid-area: img-2;
+    height:429px;
+    border-radius: 1rem;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.34);
+
+}
+
+.img-5 a {
+    color: white;
+}
+
+
+
+.img-5 .img-title-2  h1 {
+ font-size: 30px;
+ text-align: center;
+ margin-top: 150px;
+}
+
+
+#a-link {
+color: white;
+font-size: 20px;
+text-align: center;
+margin-left: 330px;
+}
+
+
+
+
+
+
+/* ajharul islam  end*/
+
+
+.join-section { 
+    background-image: url("../assets/news-letter-bg.png");
+    width: 100%;
+    height: 25rem;
+    padding: 30px 0px;
+    background-size: cover;
+}
+
+
+.title  {
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1  {
+    font-size: 55px;
+    margin-top: 80px;
+    color: white;
+}
+
+.input input {
+    border: none;
+    width: 530px;
+    height: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.input button {
+    
+    border: none;
+    width: 130px;
+    height: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #E95A08;
+    color: white;
+
+
+}
+
+
+
+.footer-items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    height: 15rem;
+    padding: 50px;
+}
+
+.footer-items .footer-about li  {
+list-style: none;
+text-align: center;
+margin-bottom: 17px;
+}
+
+
+.footer-items .footer-center li  {
+list-style: none;
+text-align: center;
+margin-bottom: 17px;
+}
+
+.social-icon img  { 
+ margin-left: 20px;
+}
+
+
+#twitter {
+    margin-top: -20px;
+    padding: 8px;
+}
+
+
+.footer-logo-title p {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+
+.ANIK-NAI {
+    display: none;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* medimu device */
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+.nav-items {
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 30px;
+}
+
+
+
+.nav-menu ul {
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-menu {
+    margin-top: 14px;
+}
+
+
+
+}
+
+/* THER END NAVBAR STYLE */
+
+
+
+
+/* smail device */
 
 @media screen and (max-width:576px) {
     
@@ -94,6 +520,255 @@
 .nav-items  {
     margin: 20px 30px;
 }
+
+
+
+
+.banner {
+    display:flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.banner img  {
+max-width:100%;
+}
+
+
+.banner-titles {
+    max-width: 100%;
+    margin-left:10px;
+}
+
+
+.banner-titles h2 {
+    font-size: 35px;
+    margin: 10px 0px;
+   
+}
+
+.banner-titles p {
+    font-size: 0.9rem;
+}
+
+
+
+.our-plans {
+    margin: 0px;
+}
+
+.our-plan {
+    max-height:130px;
+    margin: 50px 10px 10px 10px ;
+    padding: 20px 20px;
+}
+
+
+ 
+
+ 
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card img {
+    width:100%;
+}
+
+
+
+
+.love-plans {
+     display:flex;
+    flex-direction: column;
+}
+
+
+/* .love-plans .love-plan-img {
+    max-width: 100%;
+    height: 38rem;
+
+} */
+
+.love-plans {
+    padding: 20px;
+}
+
+
+.love-plans img {
+    width: 100%;
+}
+
+.love-plan-img {
+    background-image: url("../assets/flower-store.png");
+    background-repeat: no-repeat;
+    margin:0px;
+    padding: 0px;
+    height: 35rem;
+
+    
+}
+
+.love-plans h2 {
+    position: relative;
+    left: -11px;
+}
+ 
+
+.love-plan-img img {
+    display: none;
+}
+
+
+.love-plan-titles {
+    width: 100%;
+    padding:10px;
+    font-size:20px ;
+    margin-top: 30px;
+}
+
+.love-plan-titles ul li {
+    margin: 30px 10px 10px 10px;
+    position: relative;
+    left: 22px;
+
+    
+}
+
+
+
+.input button {
+    border: none;
+    width: 101px;
+    height: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #E95A08;
+    color: white;
+}
+
+
+.title h1 {
+    font-size: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+
+
+.join-section { 
+    background-image: url("../assets/news-letter-bg.png");
+    width: 100%;
+    height: 18rem;
+    padding: 10px 0px;
+    background-size: cover;
+}
+
+
+.input input {
+    border: none;
+    width: 231px;
+    height: 2.8rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+    .input button {
+        border: none;
+        width: 101px;
+        height: 2.8rem;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        background-color: #E95A08;
+        color: white;
+    }
+
+
+
+    .footer-items {
+     display:flex;
+    flex-direction: column;
+}
+
+
+
+.footer-items .footer-about li  {
+list-style: none;
+text-align: start;
+margin-bottom: 27px;
+}
+
+
+.footer-items .footer-center li  {
+list-style: none;
+text-align: start;
+margin-bottom: 27px;
+}
+
+
+.social-icon  { 
+ margin-left: -24px;
+
+}
+
+.social-icon:first-child {
+    margin-left: 0px;
+}
+
+
+
+#first-con {
+    padding:0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+ 
+
+ 
+
+.container-first {
+    padding:0px;
+}
+
+
+
+
+.grid-propatys {
+    display: grid
+;
+    grid-template-areas:
+        "img-1 img-1"
+        "img-2 img-2"
+        "img-3 img-3";
+}
+
+
+
+.img-2 {
+    grid-area: img-2;
+    height: 12.5rem;
+    border-radius: 1rem;
+    width: 91.8%;
+    margin-left: 15px;
+}
+
+.img-5 {
+    height: 12.5rem;
+    width:91.8%;
+    margin-left: 15px;
+}
+
+
+
+
+/* THER END NAVBAR STYLE */
 
     
 }
