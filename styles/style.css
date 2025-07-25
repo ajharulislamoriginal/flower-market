@@ -457,9 +457,121 @@ margin-bottom: 17px;
 
 
 
+
+/* anikst */
+
+
+.exta-section {
+    display: none;
+}
+
+
+.exta-items {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 30px;
+}
+
  
 
 
+
+.item-3 {
+    position: relative;
+    background-image: url("../assets/deal-bloom.png");
+     width: 100%;
+    height:170px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    
+}
+
+.item-3  .item-title h2 {
+    margin: 50px 0px 15px 0px;
+    color: white;
+}
+
+.item-3 .item-title a {
+    color: white;
+    padding: 20px;
+}
+
+
+
+.item-2  .item-title h2 {
+    margin: 50px 0px 15px 0px;
+    color: white;
+}
+
+.item-2 .item-title a {
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+.item-1  .item-title h2 {
+    margin: 50px 0px 15px 0px;
+    color: white;
+}
+
+.item-1 .item-title a {
+    color: white;
+    padding: 20px;
+}
+
+
+
+.item-2 {
+    background-image: url("../assets/deal-zabo.png");
+     width: 100%;
+    height:170px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+.exta-items .item-1 {
+    background-image: url("../assets/deal-ana.png");
+    width: 100%;
+    height:170px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* anikend */
+
+
+
+ 
+
+/* lorge  */
+
+
+@media screen and (min-width: 1346px) {
+    .all-container {
+           max-width: 1344px;
+           margin: 0 auto;
+    }
+    
+}
 
 
 
@@ -611,6 +723,10 @@ max-width:100%;
     
 }
 
+
+
+
+
 .love-plans h2 {
     position: relative;
     left: -11px;
@@ -735,34 +851,67 @@ margin-bottom: 27px;
 
 .container-first {
     padding:0px;
+    margin: 0 auto;
 }
 
 
 
 
 .grid-propatys {
-    display: grid
+    display: none;
+
+
+
 ;
     grid-template-areas:
         "img-1 img-1"
         "img-2 img-2"
         "img-3 img-3";
+         padding: 0px;
+         margin: 0px;
 }
 
+
+
+
+.img-4 {
+    width: 20.8rem;
+}
+
+.img-1 {
+    width: 20.8rem;
+}
 
 
 .img-2 {
     grid-area: img-2;
     height: 12.5rem;
     border-radius: 1rem;
-    width: 91.8%;
+    width: 87.8%;
     margin-left: 15px;
 }
 
 .img-5 {
     height: 12.5rem;
-    width:91.8%;
+    width:87.8%;
     margin-left: 15px;
+}
+
+
+.img-3 {
+width: 20.8rem;
+}
+
+
+.img-6 {
+    width:20.8rem;
+}
+
+
+
+
+.exta-section {
+    display:grid;
 }
 
 
